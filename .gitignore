@@ -1,0 +1,44 @@
+# === Maven / Gradle ===
+target/
+build/
+out/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# === IDEs ===
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# === Logs ===
+*.log
+logs/
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Spring Boot specific ===
+# Embedded Tomcat / Jetty / etc.
+*.war
+*.ear
+
+# === Environment / Config ===
+application-*.yml
+application-*.yaml
+application-*.properties
+
+# Secret keys
+*.env
+.env.local
